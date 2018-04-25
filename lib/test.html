@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jquary test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>                  
+</head> -->
+<script>
+        //  jQuery Effects 
+<!-- 
+    //slide  up and down method  and chaining
+    $(document).ready(function(){
+        $("#UpandDown").click(function(){
+    $("p").slideUp(1000)
+    .slideDown(500);
+    });
+    });
+    // hide Something 
+  $(document).ready(function(){
+        $("#hide").click(function(){
+    $("p").hide(1000)
+    });
+    });
+  
+//   slide down stop 
+
+$(document).ready(function(){
+
+})
+    //Show something 
+    $(document).ready(function(){
+      $("#show").click(function()
+      {
+       $("p").show();
+      });
+    });
+    
+    //animation 
+    $(document).ready(function(){
+        $("#off").click(function()
+        {
+         var ani = $("#animation");
+         ani.animate({left:'1000px'},"slow");
+         ani.animate({fontSize: '2em'}, "slow")
+
+      });
+      } );
+    
+    //   stop() method
+      $(document).ready(function()
+    {
+        $("#stop").click(function(){
+  
+            $("p").stop();
+
+        });
+    });
+       
+
+
+   
+
+ -->
+
+    
+    </script>
+    </head>
+    <body>
+    
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>   
+    <button id="UpandDown">UpandDown</button>
+    <button id="off">animation on off</button>
+    <button id= "stop">Stop</button>
+
+
+    <div id="animation" style="background:#98bf21;height:200px;width:200px;position:absolute;">Hellow</div>
+
+ 
+    <p>If you click on the "Hide" button, I will disappear.</p>
+    <p>If you click on the "Hide" button, I will disappear.</p>
+    <p>If you click on the "Hide" button, I will disappear.</p>
+    <p>If you click on the "Hide" button, I will disappear.</p>
+
+    </body>    
+</html>
